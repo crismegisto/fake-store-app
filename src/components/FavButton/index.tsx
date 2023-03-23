@@ -8,7 +8,7 @@ import styles from './styles';
 
 function FavButton() {
   return (
-    <TouchableOpacity style={styles.container} onPress={() => console.log('sadas')}>
+    <TouchableOpacity style={styles.container} onPress={() => ({})}>
       <Icon name={'favorite'} size={24} color={primary} />
     </TouchableOpacity>
   );

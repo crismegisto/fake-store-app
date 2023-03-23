@@ -1,7 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Reactotron from 'reactotron-react-native';
 import ReactotronFlipper from 'reactotron-react-native/dist/flipper';
-import { reactotronRedux } from 'reactotron-redux';
 import tronsauce from 'reactotron-apisauce';
 
 import { Tron } from '../interfaces/reactotron';

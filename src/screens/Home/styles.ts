@@ -11,6 +11,16 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     paddingBottom: Platform.OS === 'ios' ? 60 : 90,
     paddingHorizontal: 4
+  },
+  errorContainer: {
+    flex: 1,
+    backgroundColor: tertiary,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  info: {
+    fontWeight: 'bold',
+    fontSize: 20
   }
 });
 
