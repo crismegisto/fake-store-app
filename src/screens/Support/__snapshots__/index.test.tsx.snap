@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Support screen Tests match snapshot 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#fefae0",
+      "flex": 1,
+      "justifyContent": "center",
+      "padding": 10,
+    }
+  }
+>
+  <TextInput
+    maxLength={40}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    placeholder="Name"
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#606c38",
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "height": 40,
+        "marginVertical": 12,
+        "padding": 10,
+      }
+    }
+  />
+  <TextInput
+    maxLength={60}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    placeholder="Email"
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#606c38",
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "height": 40,
+        "marginVertical": 12,
+        "padding": 10,
+      }
+    }
+  />
+  <Text
+    style={
+      {
+        "marginHorizontal": 4,
+        "marginTop": 14,
+      }
+    }
+  >
+    Put your suggestions in the following field
+  </Text>
+  <TextInput
+    multiline={true}
+    onBlur={[Function]}
+    onChangeText={[Function]}
+    style={
+      {
+        "backgroundColor": "white",
+        "borderColor": "#606c38",
+        "borderRadius": 4,
+        "borderWidth": 2,
+        "height": 200,
+        "marginVertical": 12,
+        "padding": 10,
+      }
+    }
+    testID="suggestionsForm"
+    value="Hello!
+"
+  />
+  <View
+    style={
+      [
+        {
+          "transform": [
+            {
+              "scale": 1,
+            },
+          ],
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "alignSelf": "center",
+          "backgroundColor": "#283618",
+          "borderRadius": 4,
+          "height": 40,
+          "justifyContent": "center",
+          "marginTop": 40,
+          "opacity": 1,
+          "width": 120,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+</View>
+`;
